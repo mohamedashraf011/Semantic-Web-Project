@@ -377,6 +377,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ai_with_python">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Selvana"/>
+        <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Ahmed"/>
     </owl:NamedIndividual>
     
 
@@ -385,6 +387,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#csharp_basics">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Ashraf"/>
     </owl:NamedIndividual>
     
 
@@ -401,6 +404,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#data_structures">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Maryam"/>
     </owl:NamedIndividual>
     
 
@@ -425,6 +429,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#java_intro">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Renad"/>
     </owl:NamedIndividual>
     
 
@@ -458,6 +463,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#python_essentials">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Shawky"/>
     </owl:NamedIndividual>
     
 
@@ -466,6 +472,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#web_dev_guide">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Bahaa"/>
     </owl:NamedIndividual>
     
 
