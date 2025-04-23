@@ -153,6 +153,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#AI">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Topic"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ai_intro"/>
     </owl:NamedIndividual>
     
 
@@ -177,6 +178,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Algorithms">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Topic"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#datastructures_lesson"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#java_course"/>
     </owl:NamedIndividual>
     
 
@@ -217,6 +220,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#DataStructures">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Topic"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#datastructures_lesson"/>
     </owl:NamedIndividual>
     
 
@@ -225,6 +229,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Databases">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Topic"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#csharp_series"/>
     </owl:NamedIndividual>
     
 
@@ -305,6 +310,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#OOP">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Topic"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#datastructures_lesson"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#java_course"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#js_course"/>
     </owl:NamedIndividual>
     
 
@@ -345,6 +353,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#SoftwareEngineering">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Topic"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#csharp_series"/>
     </owl:NamedIndividual>
     
 
@@ -361,6 +370,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#WebDevelopment">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Topic"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#js_course"/>
+        <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#webdev_bootcamp"/>
     </owl:NamedIndividual>
     
 
@@ -369,6 +380,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ai_intro">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
+        <library:teachesLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Python"/>
     </owl:NamedIndividual>
     
 
@@ -377,8 +389,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ai_with_python">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#AI"/>
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Selvana"/>
+        <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Master"/>
         <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Ahmed"/>
+        <library:writtenInLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Python"/>
     </owl:NamedIndividual>
     
 
@@ -387,7 +402,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#csharp_basics">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#SoftwareEngineering"/>
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Ashraf"/>
+        <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Intermediate"/>
+        <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Mohamed"/>
+        <library:writtenInLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#CSharp"/>
     </owl:NamedIndividual>
     
 
@@ -396,6 +415,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#csharp_series">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
+        <library:teachesLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#CSharp"/>
     </owl:NamedIndividual>
     
 
@@ -404,7 +424,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#data_structures">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#DataStructures"/>
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Maryam"/>
+        <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Advanced"/>
+        <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Mostafa"/>
+        <library:writtenInLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Java"/>
     </owl:NamedIndividual>
     
 
@@ -413,6 +437,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#datastructures_lesson">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
+        <library:teachesLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Java"/>
     </owl:NamedIndividual>
     
 
@@ -421,6 +446,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#java_course">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
+        <library:teachesLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Java"/>
     </owl:NamedIndividual>
     
 
@@ -429,7 +455,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#java_intro">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Algorithms"/>
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Renad"/>
+        <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Beginner"/>
+        <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Mahmoud"/>
+        <library:writtenInLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Java"/>
     </owl:NamedIndividual>
     
 
@@ -438,6 +468,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#js_course">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
+        <library:teachesLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#JavaScript"/>
     </owl:NamedIndividual>
     
 
@@ -446,7 +477,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#js_fundamentals">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#WebDevelopment"/>
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Soudy"/>
+        <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Advanced"/>
+        <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Mohanad"/>
+        <library:writtenInLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#JavaScript"/>
     </owl:NamedIndividual>
     
 
@@ -455,6 +490,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#python_course">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
+        <library:teachesLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Python"/>
     </owl:NamedIndividual>
     
 
@@ -463,7 +499,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#python_essentials">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#OOP"/>
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Shawky"/>
+        <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Master"/>
+        <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Mohamed"/>
+        <library:writtenInLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Python"/>
     </owl:NamedIndividual>
     
 
@@ -472,7 +512,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#web_dev_guide">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#SoftwareEngineering"/>
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Bahaa"/>
+        <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Advanced"/>
+        <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Ahmed"/>
+        <library:writtenInLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#JavaScript"/>
     </owl:NamedIndividual>
     
 
@@ -481,6 +525,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#webdev_bootcamp">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
+        <library:teachesLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#JavaScript"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
