@@ -236,6 +236,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Topic"/>
         <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#datastructures_lesson"/>
         <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#java_course"/>
+        <library:relatedToLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Java"/>
     </owl:NamedIndividual>
     
 
@@ -369,6 +370,8 @@
         <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#datastructures_lesson"/>
         <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#java_course"/>
         <library:explainedIn rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#js_course"/>
+        <library:recommendedFor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Python"/>
+        <library:relatedToLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Java"/>
     </owl:NamedIndividual>
     
 
@@ -480,7 +483,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#data_structures">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Algorithms"/>
         <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#DataStructures"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#OOP"/>
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Maryam"/>
         <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Advanced"/>
         <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Mostafa"/>
@@ -502,6 +507,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#java_course">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
+        <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Beginner"/>
         <library:teachesLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Java"/>
     </owl:NamedIndividual>
     
@@ -512,6 +518,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#java_intro">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
         <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Algorithms"/>
+        <library:coversTopic rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#OOP"/>
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Renad"/>
         <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Beginner"/>
         <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Mahmoud"/>
@@ -524,6 +531,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#js_course">
         <rdf:type rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
+        <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Advanced"/>
         <library:teachesLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#JavaScript"/>
     </owl:NamedIndividual>
     
@@ -537,6 +545,7 @@
         <library:hasAuthor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Soudy"/>
         <library:hasDifficultyLevel rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Advanced"/>
         <library:publishedBy rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Mohanad"/>
+        <library:recommendedFor rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Advanced"/>
         <library:writtenInLanguage rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#JavaScript"/>
     </owl:NamedIndividual>
     
@@ -801,6 +810,52 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
+        <rdfs:label>S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#ProgrammingBook"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library/b"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#hasDifficultyLevel"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library/b"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Beginner"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#recommendedFor"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library/b"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Beginner"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
         <rdfs:label>S5</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -981,52 +1036,6 @@
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#teachesLanguage"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library/t"/>
                         <swrl:argument2 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library/lang"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>S1</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Tutorial"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library/t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#hasDifficultyLevel"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library/t"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Beginner"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#recommendedFor"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library/t"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/mo7am/ontologies/2025/3/library#Beginner"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
