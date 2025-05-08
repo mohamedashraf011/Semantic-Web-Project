@@ -18,16 +18,18 @@
             <artifactId>owlapi-distribution</artifactId>
             <version>4.5.0</version> <!-- Downgraded OWLAPI version -->
         </dependency>
+        
         <dependency>
             <groupId>net.sourceforge.owlapi</groupId>
             <artifactId>org.semanticweb.hermit</artifactId>
             <version>1.4.3.456</version> <!-- HermiT version remains the same -->
         </dependency>
+        
         <dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-simple</artifactId>
-    <version>1.7.36</version>
-</dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
+        </dependency>
 
     </dependencies>
     
